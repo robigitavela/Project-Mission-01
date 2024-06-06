@@ -1,0 +1,90 @@
+#navigator {
+  background-color: rgba(9, 245, 245, 0.462);
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-color: rgb(0, 166, 255);
+  border-style: solid;
+  margin-top: 2%;
+  width: auto;
+  height: 150px;
+
+
+}
+
+.Header-Logo {
+  width: 260px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: large;
+  color: rgba(7, 7, 7, 0.921);
+}
+
+.reusable-compo {
+  width: 270px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: x-large;
+
+}
+
+
+fieldset {
+  width: 105px;
+  height: 15px;
+
+  background-color: rgba(0, 76, 255, 0.62);
+  border-radius: 6%;
+}
+
+button {
+  background: none;
+
+}
+
+.prva-strana {
+  margin-left: 5%;
+}
+
+
+.Header-buttons {
+  margin-left: 5%;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  gap: 9%;
+  align-items: center;
+}
+
+a {
+  /*  */
+  /* outline-color: transparent; */
+  text-align: center;
+  line-height: 1;
+  color: black;
+}
+
+a:link,
+a:visited,
+a:focus {
+
+  color: rgb(13, 28, 240);
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: rgb(168, 212, 25);
+}
